@@ -1,0 +1,10 @@
+.thumbnail {
+    -fx-background-color: #ffffff;
+    -fx-background-radius: 50%;
+    -fx-border-color: #000000;
+    -fx-border-width: 2px;
+}
+
+.thumbnail-hover {
+    -fx-effect:dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
